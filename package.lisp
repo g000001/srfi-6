@@ -2,12 +2,12 @@
 
 (cl:in-package :cl-user)
 
-(defpackage :srfi-6
+(defpackage "https://github.com/g000001/srfi-6"
   (:use)
   (:export :open-input-string
            :open-output-string
            :get-output-string))
 
-(defpackage :srfi-6-internal
-  (:use :srfi-6 :cl :fiveam))
+(defpackage "https://github.com/g000001/srfi-6#internals"
+  (:use "https://github.com/g000001/srfi-6" cl))
 

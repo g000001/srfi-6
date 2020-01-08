@@ -1,10 +1,6 @@
 ;;;; srfi-6.lisp
 
-(cl:in-package :srfi-6-internal)
-
-(def-suite srfi-6)
-
-(in-suite srfi-6)
+(cl:in-package "https://github.com/g000001/srfi-6#internals")
 
 (declaim (inline open-input-string
                  open-output-string
